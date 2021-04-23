@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "header": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "category": "Novel",
+      "isbn": "17645"
+    },
+    {
+      "id": 2,
+      "header": "Harry Potter and the Chamber of Secrets",
+      "author": "J. K. Rowling",
+      "category": "Novel",
+      "isbn": "6665749"
+    },
+    {
+      "id": 3,
+      "header": "Harry Potter and Prisoner of Azkaban",
+      "author": "J. K. Rowling",
+      "category": "Novel",
+      "isbn": "8888"
+    },
+    {
+      "id": 4,
+      "header": "Harry Potter and Goblet of Fire",
+      "author": "J. K. Rowling",
+      "category": "Novel",
+      "isbn": "11112"
+    },
+    {
+      "id": 5,
+      "header": "Gone Girl",
+      "author": "Gillian Flynn",
+      "category": "Detective",
+      "isbn": "11123"
+    },
+    {
+      "id": 6,
+      "header": "I Love You to the Moon and BackI ",
+      "author": "Amelia Hepworth, Tim Warnes",
+      "category": "Other",
+      "isbn": "112345"
+    }
+  ]
+}
