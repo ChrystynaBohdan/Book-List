@@ -4,10 +4,7 @@ import {connect} from "react-redux";
 import axios from "axios";
 import {deleteBookSuccess} from "../Actions/book.actions";
 
-
-
-class Books extends Component {
-    render() {
+const Books = (props) => {
         return (
             <div>
                 <table className='table table-striped'>
@@ -22,9 +19,9 @@ class Books extends Component {
                     </thead>
                     <tbody>
                     {
-                      this.props.books.map(book => {
+                      props.books.map(book => {
                           return (
-                              <Book key ={book.id} book={book} deleteBook={() => (this.props.deleteBook(book.id))}/>
+                              <Book key ={book.id} book={book} deleteBook={() => (props.deleteBook(book.id))}/>
                           )
                       })
                     }
@@ -32,8 +29,6 @@ class Books extends Component {
                 </table>
             </div>
         )
-    }
-
 }
 
 const mapStateToProps = (state) => {
